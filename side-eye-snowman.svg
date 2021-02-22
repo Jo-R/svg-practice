@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <title lang="en">A snowman doing the side eye</title>
+  <style>
+    @keyframes side-eye {
+      from {
+        transform: translateX(-20px)
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+    .eyes {
+      animation: side-eye 1s ease-out infinite;
+    }
+    text {
+      font: bold 2em sans-serif;
+    }
+  </style>
+  <defs>
+    <circle id="eye" cy="50" r="3" fill="black"/>
+    <radialGradient id="body">
+      <stop offset="20%" stop-color="#d0d9e2" />
+      <stop offset="85%" stop-color="white" />
+       <stop offset="93%" stop-color="lightskyblue" />
+       <stop offset="99%" stop-color="#7c909e" />
+    </radialGradient>
+  </defs>
+  <g fill="url(#body)">
+    <circle cx="150" cy="133" r="60" />
+    <circle cx="150" cy="50"  r="30" />
+  </g>
+  <text x="220" y="150" fill="cadetblue"> Boo!</text>
+  <g class="eyes" >
+    <use href="#eye" x="160" />
+    <use href="#eye" x="170" />
+  </use>
+  </g>
+  
+</svg>
