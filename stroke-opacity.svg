@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="400" width="400">
+  <title>Stroke opacity to show how it sits on the shape</title>
+  <ellipse rx="100" ry="60" cx="200" cy="200" fill="purple" stroke="bisque" stroke-width="25" stroke-opacity="0.6" />
+</svg>
