@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <title>Paths...</title>
+  <style>
+    path {
+      /* stroke: blue; */
+      /* stroke-width: 15px; */
+      fill: red;
+    }
+  </style>
+  <path d="M100,150 L150,0 L200,150 L150,300 Z" />
+  <path d="m200,250 l50,-100, l50,100 l-50,100 z" />
+  <!--This is a tricky thing with a fill...use a sub path to make a kind of hole in the
+  shape. Its important that the inner shape goes counter clockwise and the outer clockwise...
+  else use fill-rule=evenodd so it always cuts out see p178 of book -->
+   <path d="M3,10 L10,0 17,10 10,20Z 
+             M9,11 L10,18 10,10 15,10 11,9 10,2 10,10 5,10 Z" />
+   <path d="M300,150 l50,-100, 50,100 -50,100 z
+             M350,70 l-30,80 30,80 30,-80 z" />
+</svg>
