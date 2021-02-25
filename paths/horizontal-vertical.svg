@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+<style>
+    path {
+      /* stroke: blue; */
+      /* stroke-width: 15px; */
+      fill: red;
+    }
+  </style>
+  <!-- also has h and v for offset version like l-->
+  <path d="M10,5 H300 V150 H10 Z" />
+
+  <path d="M200,150 L250,300 200,400 150,300 Z 
+             M190,310 L200,390 V310 H230 L200,300 V180 L190,300 H160 Z" />
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>Plygon and polyline but some stuff can only do with a path</title>
+  <style>
+  polygon {
+    stroke: blue;
+    fill: white;
+  }
+  polyline {
+    stroke: blue;
+    fill: white;
+  }
+  </style>
+  <!-- <polygon points="20,10 50,80 30,90 10,30 Z" /> -->
+  <polyline points="20,10 50,80 30,90 10,30" /> 
+</svg>
