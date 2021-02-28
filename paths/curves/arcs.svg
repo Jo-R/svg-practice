@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- bezier curves can't draw mathematically perfect circle or ellipses, for this we have Arcs
+  which create and arc between two points-->
+    <style>
+    path {
+      stroke: blue;
+      stroke-width: 2px;
+      fill: transparent;
+    }
+    circle {
+      fill: blue;
+    }
+  </style>
+  <path d="M 50,10
+      A 40 20 0 1 1 45 15 " />
+  <path d="M 150,110
+      A 140 120 0 1 1 170 158 " />
+  <circle cx="150" cy="110" r="50" />
+</svg>

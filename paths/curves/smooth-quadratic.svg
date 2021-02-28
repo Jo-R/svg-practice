@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!--quadratic bezier meet at sharp points...this connects multiple curves smoothly -->
+  <!-- For this the control point is implicit (calc'd automatically) so its T plus one co-ordinate, the end point--> 
+  <style>
+    path {
+      /* stroke: blue; */
+      /* stroke-width: 15px; */
+      fill: red;
+    }
+  </style>
+  <path d="M 10,6
+      Q 10,0 15,0
+      T 20,6
+      Q 20,10 15,14
+      T 10,20
+      Q 10,18 5,14
+      T 0,6
+      Q 0,0 5,0
+      T 10, 6
+      Z" />
+</svg>

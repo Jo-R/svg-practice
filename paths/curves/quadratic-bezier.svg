@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!--Needs three points: start,end and single control point -->
+  <style>
+    path {
+      stroke: blue;
+      /* stroke-width: 15px; */
+      fill: transparent;
+    }
+  </style>
+  <path d="M0,0 Q 200,0 200,200 Q 0,200 0,0 Z" />
+</svg>

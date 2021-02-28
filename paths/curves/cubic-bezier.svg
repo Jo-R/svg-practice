@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- 2 control points: tanget line from start point and tangent line to end point-->
+  <!-- so more flexible than quadratic bezier and is what most drawing apps use-->
+  <!-- C cubic curve (1st 2nd conrtol and end) and S smooth cubic curve (control point and end) -->
+  <style>
+    path {
+      stroke: blue;
+      stroke-width: 15px;
+      fill: transparent;
+    }
+  </style>
+  <path d="M 120,10
+      C 30,4 40,16 120,140
+      S     70,20 243,50"  />
+</svg>
