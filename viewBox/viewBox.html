@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Default and centered co-ord systems</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    rect {
+      fill: plum;
+    }
+
+    circle {
+      fill: none;
+      stroke: red;
+    }
+  </style>
+  <body>
+    <svg width="400px" height="200px">
+      <title>default coords</title>
+      <g id="content">
+        <rect class="backdrop" width="100%" height="100%" />
+        <g class="target">
+          <circle r="10" />
+          <circle r="30" />
+          <circle r="50" />
+          <circle r="70" />
+          <circle r="90" />
+        </g>
+      </g>
+    </svg>
+    <svg width="400px" height="200px" viewBox="-200 -100 400 200">
+      <title>Centered coords</title>
+      <use xlink:href="#content" />
+    </svg>
+  </body>
+</html>
